@@ -64,10 +64,6 @@ def parvietot_iekartu(iek, telpa, iekartas, savienojumi):
             labakais_y = new_y
             labakas_izmaksas = jaunas_izmaksas
 
-        # 2.  Swap with another machine (optional):
-        # You can add code here to try swapping the position of 'iek' with another
-        # randomly chosen machine and see if it improves the cost.
-
     iek.x = labakais_x
     iek.y = labakais_y
 
